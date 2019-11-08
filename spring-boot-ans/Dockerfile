@@ -5,5 +5,4 @@ ARG JAR_FILE
 COPY ${JAR_FILE} ~/spring-boot-hello.jar
 
 ENTRYPOINT ["java","-jar","~/spring-boot-hello.jar","--server.port=8080"]
- 990
  
